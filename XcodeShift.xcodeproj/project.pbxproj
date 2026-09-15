@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B5D8EA46D378B5B8D2975E /* XcodeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A77C0D4D2457415053A5869 /* XcodeRow.swift */; };
+		75E693E3DA6E6041AF1EBF19 /* XcodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25938F62B86224433B0FF7A4 /* XcodeManager.swift */; };
+		7658CE3DD64E4CB48D4206B4 /* ProcessRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2AD780EE5907639259DF45 /* ProcessRunner.swift */; };
+		90B5E34A73EEFD70AC243118 /* XcodeShiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E807F64E9336CE15BF130AFE /* XcodeShiftApp.swift */; };
+		9B92D970DA610DC035CA50F4 /* XcodeInstallation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80711D7780CE580AB9736F5B /* XcodeInstallation.swift */; };
+		A809AE6BEAB302D4528D7036 /* MenuBarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCD5E3F4BD161299FBD6E2F /* MenuBarContent.swift */; };
+		FC79C09DE5614BC05F9248C8 /* ManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40421D279922D17FC99A167 /* ManagerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C2AD780EE5907639259DF45 /* ProcessRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessRunner.swift; sourceTree = "<group>"; };
+		25938F62B86224433B0FF7A4 /* XcodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeManager.swift; sourceTree = "<group>"; };
+		7A77C0D4D2457415053A5869 /* XcodeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeRow.swift; sourceTree = "<group>"; };
+		7B594B6DB375E1BF3F23CDD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DCD5E3F4BD161299FBD6E2F /* MenuBarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContent.swift; sourceTree = "<group>"; };
+		80711D7780CE580AB9736F5B /* XcodeInstallation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeInstallation.swift; sourceTree = "<group>"; };
+		D957E19B16B69713B7749A90 /* XcodeShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40421D279922D17FC99A167 /* ManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerView.swift; sourceTree = "<group>"; };
+		E807F64E9336CE15BF130AFE /* XcodeShiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeShiftApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69680EDE0CF9B24DB8DBFE04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		615B463D1028E4E24B674CF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D957E19B16B69713B7749A90 /* XcodeShift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		870B3294C0CBD48AF6BBCC1B = {
+			isa = PBXGroup;
+			children = (
+				E807F64E9336CE15BF130AFE /* XcodeShiftApp.swift */,
+				80711D7780CE580AB9736F5B /* XcodeInstallation.swift */,
+				1C2AD780EE5907639259DF45 /* ProcessRunner.swift */,
+				25938F62B86224433B0FF7A4 /* XcodeManager.swift */,
+				7A77C0D4D2457415053A5869 /* XcodeRow.swift */,
+				7DCD5E3F4BD161299FBD6E2F /* MenuBarContent.swift */,
+				E40421D279922D17FC99A167 /* ManagerView.swift */,
+				7B594B6DB375E1BF3F23CDD6 /* Info.plist */,
+				615B463D1028E4E24B674CF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* XcodeShift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE97F2CECB2601227982F09 /* Build configuration list for PBXNativeTarget "XcodeShift" */;
+			buildPhases = (
+				F612CD2E22E187AC48B5913C /* Sources */,
+				69680EDE0CF9B24DB8DBFE04 /* Frameworks */,
+				86F6FE2DD6E869C1842A14B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeShift;
+			productName = XcodeShift;
+			productReference = D957E19B16B69713B7749A90 /* XcodeShift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0E8A3AD980EC179856012B7E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 6650A2B5E24FA7522CE6B81C /* Build configuration list for PBXProject "XcodeShift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 870B3294C0CBD48AF6BBCC1B;
+			productRefGroup = 615B463D1028E4E24B674CF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* XcodeShift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86F6FE2DD6E869C1842A14B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F612CD2E22E187AC48B5913C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B5E34A73EEFD70AC243118 /* XcodeShiftApp.swift in Sources */,
+				9B92D970DA610DC035CA50F4 /* XcodeInstallation.swift in Sources */,
+				7658CE3DD64E4CB48D4206B4 /* ProcessRunner.swift in Sources */,
+				75E693E3DA6E6041AF1EBF19 /* XcodeManager.swift in Sources */,
+				17B5D8EA46D378B5B8D2975E /* XcodeRow.swift in Sources */,
+				A809AE6BEAB302D4528D7036 /* MenuBarContent.swift in Sources */,
+				FC79C09DE5614BC05F9248C8 /* ManagerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA23A758EC6A71B7321371F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D12546C7310DEE778E55E187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1698793B8B09B32821D3120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = XCodeShift;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.XcodeShift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FFACE85B9B63AB569355131D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = XCodeShift;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.XcodeShift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6650A2B5E24FA7522CE6B81C /* Build configuration list for PBXProject "XcodeShift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D12546C7310DEE778E55E187 /* Debug */,
+				AA23A758EC6A71B7321371F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE97F2CECB2601227982F09 /* Build configuration list for PBXNativeTarget "XcodeShift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1698793B8B09B32821D3120 /* Debug */,
+				FFACE85B9B63AB569355131D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
